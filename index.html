@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Avtosalon</h1>
+   <div class="header">
+    <div class="table1">
+        <table border="2px">
+            <tr>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <td>
+                    <div class="num">
+                        <label for="name">name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="num">
+                        <label for="color">color</label>
+                        <input type="text" name="color" id="color">
+                    </div>
+                    <div class="num">
+                        <label for="model">model</label>
+                        <input type="text" name="model" id="model">
+                    </div>
+                    <div class="num">
+                        <label for="motor">motor</label>
+                        <input type="text" name="motor" id="motor">
+                    </div>
+                    <div class="btn">
+                        <input type="submit"  value="Add" id="btn">
+                    </div>
+                    </td>
+                </form>
+               
+            </tr>
+        </table>
+    </div>
+
+<div class="table2">
+    <table  class="list" id="newlist">
+                    
+        <thead>
+            <div class="tr1">
+            <tr>
+               
+                    <th>Name</th>
+                    <th>Color</th> 
+                    <th>Model</th>
+                    <th>Motor</th>
+                    <th>edit/del</th>
+    
+                </tr>
+                
+            </div>
+        </thead>
+        <tbody>
+
+        </tbody>
+
+</table>
+</div>
+
+   </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
